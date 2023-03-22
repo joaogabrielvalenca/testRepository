@@ -1,0 +1,13 @@
+html, 
+body, 
+#background { 
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(138,43,226);
+}
+
+#form {
+  padding-top: 400px;
+  align-items: center;
+  display: flex;
+}
