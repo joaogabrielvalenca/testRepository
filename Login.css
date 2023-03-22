@@ -4,65 +4,65 @@ body {
   background-size: cover;
 }
 
-h1 {
-  font-size: 48px;
-  margin-top: 50px;
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-input,
+input[type="email"] {
+  margin-top: 20px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+}
+
 button {
-  font-size: 28px;
-  height: 80px;
-  width: 100%;
-  max-width: 500px;
-  padding: 20px;
-  border-radius: 8px;
-  border: none;
-  margin-bottom: 30px;
+  background-color: green;
+  color: white;
 }
 
-.login-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-}
-.btnSettings {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
+button.settings-button {
+  margin-top: 20px;
 }
 
 form {
-  margin-top: 80px;
-  padding: 0 20px;
-  max-width: 500px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-form {
-  background-color: #ffffff;
-  border-radius: 16px;
-  margin-top: 80px;
-  padding: 0 20px;
-  max-width: 500px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-input,
-button {
-  font-size: 28px;
-  height: 80px;
-  width: 100%;
-  max-width: 500px;
-  padding: 20px;
-  border-radius: 16px;
+input[type="text"],
+input[type="email"],
+button[type="submit"],
+button.settings-button {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
   border: none;
-  margin-bottom: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input[type="text"] {
+  margin-top: 50px;
+}
+
+input[type="email"] {
+  margin-top: 20px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+}
+
+button.settings-button {
+  margin-top: 20px;
+  background-color: green;
+  color: white;
 }
